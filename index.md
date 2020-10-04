@@ -9,11 +9,13 @@ LotTweaks は建築補助を目的としたクリエイティブモード向けM
 ### 'Ex Pick' key (Client)
 
 - 長距離のPick (100ブロック以上) / Extended 'Pick block' (up to 100+ blocks away)
+- 長押し + マウスホイール で隣接ブロックのPickも可能です。 / long press + wheel to pick 'near' blocks
 
 ### 'Rotate' key (Client)
 
-- 手持ちブロックを同じグループの別ブロックで置き換えます。
-- グループはconfigで設定するか、 `/lottweaks add` コマンド（下記）で追加します。
+- 手持ちブロックを同じグループの別ブロックで置き換えます。 / swap the current block to next block in the same block-group.
+- グループはconfigで設定するか、 `/lottweaks add` コマンド（下記）で追加します。 / block-groups can be determined by a config or added by `/lottweaks add` command.
+- 操作方法: 長押し + マウスホイール / long press + wheel
 
 ![aa](rotate.gif)
 
@@ -28,11 +30,17 @@ LotTweaks は建築補助を目的としたクリエイティブモード向けM
 
 - ホットバー内のブロックを左から順にグループとして登録します。
 - 最大で9ブロックまでを一度に登録できます。
+- `add` は省略できません。
 - 試験的機能のため、Configファイルのバックアップを推奨します。
+
+## ブロックグループについて
+
+- 1つのブロックは1つのグループのみに所属できます。複数グループには所属できません。
+- アイテムは登録できません。
 
 ## 導入方法 / How to install
 
-Forgeを導入後、modsフォルダに入れてください。 / Requires MinecraftForge
+Forge 1.12.2 - 14.23.5.2854 を導入後、modsフォルダに入れてください。 / Requires MinecraftForge 1.12.2 - 14.23.5.2854
 
 ## ダウンロード / Download
 
