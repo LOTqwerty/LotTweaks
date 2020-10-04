@@ -22,7 +22,7 @@ LotTweaks は建築補助を目的としたクリエイティブモード向けM
 - 操作方法: 長押し + マウスホイール
 / long press + wheel
 
-![aa](rotate.gif)
+![](rotate.gif)
 
 ### 'Replace' key (Client + *Server* )
 
@@ -39,7 +39,14 @@ LotTweaks は建築補助を目的としたクリエイティブモード向けM
 - 試験的機能のため、Configファイルのバックアップを推奨します。
 - [How to use](https://twitter.com/LOTqwerty/status/1312584389675552768)
 
-## ブロックグループについて
+## Configについて / About Config
+
+- REPLACE_RANGE : Replace の最大長さ。クライアント/サーバのConfigの短い方が適用されます。
+- REPLACE_INTERVAL : Replace が連続実行されるまでの長押し時間。
+- REQUIRE_OP_TO_USE_REPLACE : Replace の実行権限をOPに限定します。一般公開するサーバでは、 `true` にセットするか、MODごと無効化してから公開してください。 
+- BLOCK_GROUPS : 下記
+
+### ブロックグループ
 
 - 1つのブロックは1つのグループのみに所属できます。複数グループには所属できません。
 - アイテムは登録できません。
@@ -62,7 +69,9 @@ Forge 1.12.2 - 14.23.5.2854 を導入後、modsフォルダに入れてくださ
 
 ## 更新履歴
 
-WIP
+1.1.3
+
+- 公開
 
 
 
