@@ -24,10 +24,10 @@ LotTweaks は建築補助を目的としたクリエイティブモード向けM
 
 ![](rotate.gif)
 
-### 'Replace' key (Client + *Server* )
+### 'Replace' key (Client + **Server** )
 
 - 視線の先にあるブロックを手持ちブロックで置換します。
-- マルチでこの機能を使うには、サーバ側にもLotTweaksの導入が必要です。
+- マルチでこの機能を使うには、 **サーバ側にもLotTweaksの導入が必要** です。
 
 ## コマンド / Commands
 
@@ -61,9 +61,9 @@ Forge 1.12.2 - 14.23.5.2854 を導入後、modsフォルダに入れてくださ
 
 ## ダウンロード / Download
 
-*必ず事前の&定期的なバックアップを実施してください。*
+**必ず事前の&定期的なバックアップを実施してください。**
 
-*本MODの使用またはその他の扱いによって生じるあらゆる事柄について、作者は責任を負わないものとします。*
+**本MODの使用またはその他の扱いによって生じるあらゆる事柄について、作者は責任を負わないものとします。**
 
 [上記に同意の上、ダウンロードする / Accept the disclaimer above and download](https://drive.google.com/drive/folders/15P4FLZgDrP7vwP9E47XhJRwj71IVASuc)
 
