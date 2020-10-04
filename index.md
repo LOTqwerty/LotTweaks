@@ -42,7 +42,9 @@ Forgeを導入後、modsフォルダに入れてください。 / Requires Minec
 
 [上記に同意の上、ダウンロードする / Accept the disclaimer above and download](https://drive.google.com/drive/folders/15P4FLZgDrP7vwP9E47XhJRwj71IVASuc)
 
+## 更新履歴
 
+WIP
 
 
 
