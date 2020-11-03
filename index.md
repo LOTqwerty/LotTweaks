@@ -53,7 +53,8 @@ LotTweaks は建築補助を目的としたクリエイティブモード向けM
 - configでは `ブロック名/メタ` の形式で、カンマ `,` 区切りで記述します。
 - メタ0番の場合はメタを省略し、ブロック名のみで登録できます。
 
-例: ガラスブロック(メタ0)、本棚(メタ0)、土(メタ1)を登録するときは、 `minecraft:glass,minecraft:bookshelf,minecraft:glass,minecraft:dirt/1`
+例 ガラスブロック(メタ0)、本棚(メタ0)、土(メタ1)を登録するときは、
+`minecraft:glass,minecraft:bookshelf,minecraft:dirt/1`
 
 ## 導入方法 / How to install
 
