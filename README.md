@@ -1,3 +1,3 @@
 # LotTweaks
 
-[公式サイト](https://lotqwerty.github.io/LotTweaks/)
+[公式サイトはこちらです](https://lotqwerty.github.io/LotTweaks/)
