@@ -6,12 +6,11 @@ LotTweaks は建築補助を目的としたクリエイティブモード向けM
 
 ## 追加されるキー / Keys
 
-### 'Ex Pick' key (Client)
+### 'AdjustRange' key (Client + **Server** )
 
-- 長距離のPick (100ブロック以上)
-/ Extended 'Pick block' (up to 100+ blocks away)
-- 長押し + マウスホイール で隣接ブロックのPickも可能です。
-/ long press + wheel to pick 'near' blocks
+- ブロックを設置・破壊できる距離を調整します。
+/ press to adjust the max distance of placing/breaking blocks.
+- マルチでこの機能を使うには、 **サーバ側にもLotTweaksの導入が必要** です。
 
 ### 'Rotate' key (Client)
 
@@ -29,6 +28,13 @@ LotTweaks は建築補助を目的としたクリエイティブモード向けM
 - 視線の先にあるブロックを手持ちブロックで置換します。
 - マルチでこの機能を使うには、 **サーバ側にもLotTweaksの導入が必要** です。
 
+### 'Ex Pick' key (Client)
+
+- 長距離対応のPick (100ブロック以上)
+/ Extended 'Pick block' (up to 100+ blocks away)
+- 長押し + マウスホイール で隣接ブロックのPickも可能です。
+/ long press + wheel to pick 'near' blocks
+
 ## コマンド / Commands
 
 ### `/lottweaks add` command (Client)
@@ -38,6 +44,10 @@ LotTweaks は建築補助を目的としたクリエイティブモード向けM
 - `add` は省略できません。
 - 実験的機能のため、Configファイルのバックアップを推奨します。
 - [How to use](https://twitter.com/LOTqwerty/status/1312584389675552768)
+
+### `/lottweaks reload` command (Client)
+
+- ブロックグループをConfigファイルからリロードします。
 
 ## Configについて / About Config
 
@@ -54,6 +64,7 @@ LotTweaks は建築補助を目的としたクリエイティブモード向けM
 - メタ0番の場合はメタを省略し、ブロック名のみで登録できます。
 
 例 ガラスブロック(メタ0)、本棚(メタ0)、土(メタ1)を登録するときは、
+
 `minecraft:glass,minecraft:bookshelf,minecraft:dirt/1`
 
 ## 導入方法 / How to install
