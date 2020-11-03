@@ -37,7 +37,7 @@ LotTweaks は建築補助を目的としたクリエイティブモード向けM
 
 ## コマンド / Commands
 
-### `/lottweaks add` command (Client)
+### `/lottweaks add` (Client)
 
 - ホットバー内のブロックを左から順にグループとして登録します。
 - 最大で9ブロックまでを一度に登録できます。
@@ -45,7 +45,7 @@ LotTweaks は建築補助を目的としたクリエイティブモード向けM
 - 実験的機能のため、Configファイルのバックアップを推奨します。
 - [How to use](https://twitter.com/LOTqwerty/status/1312584389675552768)
 
-### `/lottweaks reload` command (Client)
+### `/lottweaks reload` (Client)
 
 - ブロックグループをConfigファイルからリロードします。
 
