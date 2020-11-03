@@ -1,4 +1,7 @@
 theme: jekyll-theme-slate
+
+google_analytics: UA-105781788-2
+
 github:
   is_project_page: false
-google_analytics: UA-105781788-2
+
