@@ -3,24 +3,20 @@
 LotTweaks は建築補助を目的としたクリエイティブモード向けMODです。<br>
 現在、 MineCraft 1.12.2 に対応しています。
 
-LotTweaks adds some tweaks for builders to increase productivity in Creative mode.
+[English Page](en/)
 
-## 追加されるキー / Keys
+## 追加されるキー
 
 ### 'AdjustRange' key (Client + **Server** )
 
 - ブロックを設置・破壊できる距離を調整します。
-/ press to adjust the max distance of placing/breaking blocks.
 - マルチでこの機能を使うには、 **サーバ側にもLotTweaksの導入が必要** です。
 
 ### 'Rotate' key (Client)
 
 - 手持ちブロックを同じグループの別ブロックで置き換えます。
-/ swap the current block to next block in the same block-group.
 - グループはconfigで設定するか、 `/lottweaks add` コマンド（下記）で追加します。
-/ block-groups can be determined by a config or added by `/lottweaks add` command.
 - 操作方法: 長押し + マウスホイール
-/ long press + wheel
 
 ![](rotate.gif)
 
@@ -32,11 +28,9 @@ LotTweaks adds some tweaks for builders to increase productivity in Creative mod
 ### 'Ex Pick' key (Client)
 
 - 長距離対応のPick (100ブロック以上)
-/ Extended 'Pick block' (up to 100+ blocks away)
 - 長押し + マウスホイール で隣接ブロックのPickも可能です。
-/ long press + wheel to pick 'near' blocks
 
-## コマンド / Commands
+## コマンド
 
 ### `/lottweaks add` (Client)
 
@@ -50,7 +44,7 @@ LotTweaks adds some tweaks for builders to increase productivity in Creative mod
 
 - ブロックグループをConfigファイルからリロードします。
 
-## Configについて / About Config
+## Configについて
 
 - REPLACE_RANGE : Replace の最大長さ。クライアント/サーバのConfigの短い方が適用されます。
 - REPLACE_INTERVAL : Replace が連続実行されるまでの長押し時間。
@@ -68,11 +62,11 @@ LotTweaks adds some tweaks for builders to increase productivity in Creative mod
 
 `minecraft:glass,minecraft:bookshelf,minecraft:dirt/1`
 
-## 導入方法 / How to install
+## 導入方法
 
-Forge 1.12.2 - 14.23.5.2854 を導入後、modsフォルダに入れてください。 / Requires MinecraftForge 1.12.2 - 14.23.5.2854
+Forge 1.12.2 - 14.23.5.2854 を導入後、modsフォルダに入れてください。
 
-## ダウンロード / Download
+## ダウンロード
 
 **必ず事前の&定期的なバックアップを実施してください。**
 
@@ -82,7 +76,18 @@ Forge 1.12.2 - 14.23.5.2854 を導入後、modsフォルダに入れてくださ
 
 ## 更新履歴
 
-1.1.3
+### 1.2.3
+
+- Rotateのアイテム候補生成処理を変更（メタの取得をgetMetaFromStateからgetPickBlock/damageDroppedへ変更）... MODの追加ブロックの一部で発生していた Missing Texture ブロックの問題の対策
+
+### 1.2.2
+
+- AdjustRangeを追加
+- Replaceで方角メタ系ブロックの動作を修正
+- `/lottweaks reload` コマンドを追加
+- BlockGroupの指定を専用のConfigファイルに分離
+
+### 1.1.3
 
 - 公開
 
