@@ -13,7 +13,7 @@ LotTweaks adds some tweaks for builders to increase productivity in Creative mod
 - Press + wheel to swap the current block to the next block in the same block-group.
 - Block-groups can be determined by a config or added by `/lottweaks add` command.
 
-![](rotate.gif)
+![](../rotate.gif)
 
 ### 'Replace' key (Client + **Server** )
 
