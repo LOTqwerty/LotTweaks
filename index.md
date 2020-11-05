@@ -1,8 +1,9 @@
-# LotTweaks for Minecraft 1.12.2
+# LotTweaks
 
-LotTweaks は建築補助を目的としたクリエイティブモード向けMODです。
+LotTweaks は建築補助を目的としたクリエイティブモード向けMODです。<br>
+現在、 MineCraft 1.12.2 に対応しています。
 
-"LotTweaks" adds some tweaks for builders to increase productivity in Creative mode.
+LotTweaks adds some tweaks for builders to increase productivity in Creative mode.
 
 ## 追加されるキー / Keys
 
