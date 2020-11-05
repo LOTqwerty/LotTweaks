@@ -112,11 +112,15 @@ Configをいじってください。
 - Configファイルが壊れた/初期化したい
 
 Configファイルを削除してからMinecraftを起動すると、初期値で再生成されます。
+
 -->
+
 - Can I distribute my block-group config file?
 
 Yes.
+
 <!--
+
 - 新しい/古い マイクラに対応して
 
 古いバージョンには対応できません。もう開発環境が無いので...。
@@ -130,4 +134,5 @@ Yes.
 リンクは現在のアドレスへお願いします。（ https://lotqwerty.github.io/LotTweaks/ ）
 
 ドライブへの直接リンクはNGです。
+
 -->
