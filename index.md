@@ -3,7 +3,10 @@
 LotTweaks は建築補助を目的としたクリエイティブモード向けMODです。<br>
 現在、 MineCraft 1.12.2 に対応しています。
 
-[English Page](en/)
+
+## [CurseForge にて最新版公開中](https://www.curseforge.com/minecraft/mc-mods/lottweaks)
+
+[English page](en/) / [English page on CurseForge](https://www.curseforge.com/minecraft/mc-mods/lottweaks)
 
 ## 追加されるキー
 
